@@ -148,3 +148,44 @@ footer li {
   color: white; 
   text-transform: 
 }
+
+@media only screen and (max-width:600){
+  /* My UX Skills Section */
+.flexContainer {
+  display: flex;
+  padding: 30px 30px;
+}
+.flexContainer div {
+  width: 33%;
+  padding: 25px;
+  border: 1px solid white;
+}
+.flexContainer div {
+  padding: 10px 10px;
+  padding-top: 0;
+  background color:white;
+  display:grid;
+}
+
+/* My Work Section */
+.myWork {
+  padding: 10px 10px;
+  padding-top: 5px;
+  padding-right: 10px;
+  background-color: #D58FB3;
+  padding-bottom: 15px;
+}
+.workGrid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 350px 350px 350px 350px 350px 350px;
+  padding: 5px 5px;
+  grid-template-areas:
+  "img1"
+  "content1"
+  "img2"
+  "content2"
+  "img3" 
+  "content3"
+  ;
+}
